@@ -1,0 +1,44 @@
+# To get started with security, check out the documentation:
+# https://symfony.com/doc/current/security.html
+security:
+    hide_user_not_found: false
+    encoders:
+        AppBundle\Entity\User: bcrypt
+    # https://symfony.com/doc/current/security.html#b-configuring-how-users-are-loaded
+    providers:
+        user_db:
+            entity: {class: AppBundle\Entity\User, property: email}
+                #class: AppBundle:User
+                #property: username
+
+    firewalls:
+        # disables authentication for assets and the profiler, adapt it according to your needs
+        dev:
+            pattern: ^/(_(profiler|wdt)|css|images|js)/
+            security: false
+
+        main:
+            anonymous: ~
+            form_login:
+                login_path: login
+                check_path: login
+                username_parameter: username
+            logout:
+                path: /logout
+                target: /
+            access_denied_handler: AppBundle\Listener\AccessDeniedHandler
+            oauth:
+                resource_owners:
+                    facebook:           "/login/check-facebook"
+                    #google:             "/login/check-google"
+                    #my_custom_provider: "/login/check-custom"
+                    #my_github:          "/login/check-github"
+                login_path:        /login
+                use_forward:       false
+                failure_path:      /login
+
+                oauth_user_provider:
+                    service: user_provider_service
+
+#    access_control:
+#        - { path: ^/register, roles: IS_AUTHENTICATED_FULLY }
