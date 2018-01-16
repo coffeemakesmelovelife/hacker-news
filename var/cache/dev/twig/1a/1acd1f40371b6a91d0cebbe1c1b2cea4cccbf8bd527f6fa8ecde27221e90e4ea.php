@@ -22,47 +22,47 @@ class __TwigTemplate_4e588f1ec77b9cad771b2299c66c541430d5830dcb7c01a074fe74ae4d7
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_384e494e994319003662dff8e09dbb8b96bc05d755b431818760ef405dd443d2 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_384e494e994319003662dff8e09dbb8b96bc05d755b431818760ef405dd443d2->enter($__internal_384e494e994319003662dff8e09dbb8b96bc05d755b431818760ef405dd443d2_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "default/login.html.twig"));
+        $__internal_93622926c6e40ccf01e9a13da98b706ceb83c691637125872d72074f8c580e3f = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_93622926c6e40ccf01e9a13da98b706ceb83c691637125872d72074f8c580e3f->enter($__internal_93622926c6e40ccf01e9a13da98b706ceb83c691637125872d72074f8c580e3f_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "default/login.html.twig"));
 
-        $__internal_4c7a7efb75a0a3e03caf3b21a9f9917362213f37489e37944bf5e6370be41611 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_4c7a7efb75a0a3e03caf3b21a9f9917362213f37489e37944bf5e6370be41611->enter($__internal_4c7a7efb75a0a3e03caf3b21a9f9917362213f37489e37944bf5e6370be41611_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "default/login.html.twig"));
+        $__internal_3450c4117b6da1dc5f92d537a29df4971f0b32b6c7972878ff12ed53f81f5359 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_3450c4117b6da1dc5f92d537a29df4971f0b32b6c7972878ff12ed53f81f5359->enter($__internal_3450c4117b6da1dc5f92d537a29df4971f0b32b6c7972878ff12ed53f81f5359_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "default/login.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_384e494e994319003662dff8e09dbb8b96bc05d755b431818760ef405dd443d2->leave($__internal_384e494e994319003662dff8e09dbb8b96bc05d755b431818760ef405dd443d2_prof);
+        $__internal_93622926c6e40ccf01e9a13da98b706ceb83c691637125872d72074f8c580e3f->leave($__internal_93622926c6e40ccf01e9a13da98b706ceb83c691637125872d72074f8c580e3f_prof);
 
         
-        $__internal_4c7a7efb75a0a3e03caf3b21a9f9917362213f37489e37944bf5e6370be41611->leave($__internal_4c7a7efb75a0a3e03caf3b21a9f9917362213f37489e37944bf5e6370be41611_prof);
+        $__internal_3450c4117b6da1dc5f92d537a29df4971f0b32b6c7972878ff12ed53f81f5359->leave($__internal_3450c4117b6da1dc5f92d537a29df4971f0b32b6c7972878ff12ed53f81f5359_prof);
 
     }
 
     // line 3
     public function block_title($context, array $blocks = array())
     {
-        $__internal_44b96ee7d83e2d29ef203e38348f8a5099f6ae1c7a8085a87738f1f726fea390 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_44b96ee7d83e2d29ef203e38348f8a5099f6ae1c7a8085a87738f1f726fea390->enter($__internal_44b96ee7d83e2d29ef203e38348f8a5099f6ae1c7a8085a87738f1f726fea390_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
+        $__internal_7a7e23af6270ceb79913be28f709b5b97b7045ca7997ed6dc564e75b41fe7f46 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_7a7e23af6270ceb79913be28f709b5b97b7045ca7997ed6dc564e75b41fe7f46->enter($__internal_7a7e23af6270ceb79913be28f709b5b97b7045ca7997ed6dc564e75b41fe7f46_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
 
-        $__internal_ce12bfd32ed94861bc8f6e457898cc4da3a9762aff90822b90083af9b37c1ec0 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_ce12bfd32ed94861bc8f6e457898cc4da3a9762aff90822b90083af9b37c1ec0->enter($__internal_ce12bfd32ed94861bc8f6e457898cc4da3a9762aff90822b90083af9b37c1ec0_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
+        $__internal_68a7ea1cbd4ef85cc951ae2de858052a9d069d9126947d68d3246a0fffea9aa0 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_68a7ea1cbd4ef85cc951ae2de858052a9d069d9126947d68d3246a0fffea9aa0->enter($__internal_68a7ea1cbd4ef85cc951ae2de858052a9d069d9126947d68d3246a0fffea9aa0_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
 
         echo " Login ";
         
-        $__internal_ce12bfd32ed94861bc8f6e457898cc4da3a9762aff90822b90083af9b37c1ec0->leave($__internal_ce12bfd32ed94861bc8f6e457898cc4da3a9762aff90822b90083af9b37c1ec0_prof);
+        $__internal_68a7ea1cbd4ef85cc951ae2de858052a9d069d9126947d68d3246a0fffea9aa0->leave($__internal_68a7ea1cbd4ef85cc951ae2de858052a9d069d9126947d68d3246a0fffea9aa0_prof);
 
         
-        $__internal_44b96ee7d83e2d29ef203e38348f8a5099f6ae1c7a8085a87738f1f726fea390->leave($__internal_44b96ee7d83e2d29ef203e38348f8a5099f6ae1c7a8085a87738f1f726fea390_prof);
+        $__internal_7a7e23af6270ceb79913be28f709b5b97b7045ca7997ed6dc564e75b41fe7f46->leave($__internal_7a7e23af6270ceb79913be28f709b5b97b7045ca7997ed6dc564e75b41fe7f46_prof);
 
     }
 
     // line 5
     public function block_body($context, array $blocks = array())
     {
-        $__internal_7ecfffb662f1c856c5d830baa93f2aa492ef02e473a02fe89b8d2f9646467f6d = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_7ecfffb662f1c856c5d830baa93f2aa492ef02e473a02fe89b8d2f9646467f6d->enter($__internal_7ecfffb662f1c856c5d830baa93f2aa492ef02e473a02fe89b8d2f9646467f6d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_09e88690cc619e5f8327529b183403fb83909fed5c26352ea7be2a8194ca1a99 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_09e88690cc619e5f8327529b183403fb83909fed5c26352ea7be2a8194ca1a99->enter($__internal_09e88690cc619e5f8327529b183403fb83909fed5c26352ea7be2a8194ca1a99_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        $__internal_d753e0e83a821c8dadfbc8ee40446c6c4e722e379e93ba8b2eb1d8ff97f17669 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_d753e0e83a821c8dadfbc8ee40446c6c4e722e379e93ba8b2eb1d8ff97f17669->enter($__internal_d753e0e83a821c8dadfbc8ee40446c6c4e722e379e93ba8b2eb1d8ff97f17669_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_9daaebe376e608939022535d82c2cdce553fec6dd8b79a277f1c078a900f070e = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_9daaebe376e608939022535d82c2cdce553fec6dd8b79a277f1c078a900f070e->enter($__internal_9daaebe376e608939022535d82c2cdce553fec6dd8b79a277f1c078a900f070e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 6
         echo "<div class=\"container\">
@@ -93,7 +93,7 @@ class __TwigTemplate_4e588f1ec77b9cad771b2299c66c541430d5830dcb7c01a074fe74ae4d7
   <label for=\"inputPassword\" class=\"sr-only\">Password</label>
   <input type=\"password\" id=\"password\" name=\"_password\" class=\"form-control\" placeholder=\"Password\" required>
   <button class=\"btn btn-lg btn-primary btn-block\" type=\"submit\">Sign in</button>
-  <button class=\"btn btn-lg btn-primary btn-block\" type=\"submit\">
+  <button class=\"btn btn-lg btn-primary btn-block\" type=\"button\">
     <i class=\"fa fa-facebook-official\" aria-hidden=\"true\"></i>&nbsp;<a id=\"fbsign\" href=\"";
         // line 21
         echo twig_escape_filter($this->env, $this->env->getExtension('HWI\Bundle\OAuthBundle\Twig\Extension\OAuthExtension')->getLoginUrl("facebook"), "html", null, true);
@@ -151,10 +151,10 @@ body {
 </style>
 ";
         
-        $__internal_d753e0e83a821c8dadfbc8ee40446c6c4e722e379e93ba8b2eb1d8ff97f17669->leave($__internal_d753e0e83a821c8dadfbc8ee40446c6c4e722e379e93ba8b2eb1d8ff97f17669_prof);
+        $__internal_9daaebe376e608939022535d82c2cdce553fec6dd8b79a277f1c078a900f070e->leave($__internal_9daaebe376e608939022535d82c2cdce553fec6dd8b79a277f1c078a900f070e_prof);
 
         
-        $__internal_7ecfffb662f1c856c5d830baa93f2aa492ef02e473a02fe89b8d2f9646467f6d->leave($__internal_7ecfffb662f1c856c5d830baa93f2aa492ef02e473a02fe89b8d2f9646467f6d_prof);
+        $__internal_09e88690cc619e5f8327529b183403fb83909fed5c26352ea7be2a8194ca1a99->leave($__internal_09e88690cc619e5f8327529b183403fb83909fed5c26352ea7be2a8194ca1a99_prof);
 
     }
 
@@ -202,7 +202,7 @@ body {
   <label for=\"inputPassword\" class=\"sr-only\">Password</label>
   <input type=\"password\" id=\"password\" name=\"_password\" class=\"form-control\" placeholder=\"Password\" required>
   <button class=\"btn btn-lg btn-primary btn-block\" type=\"submit\">Sign in</button>
-  <button class=\"btn btn-lg btn-primary btn-block\" type=\"submit\">
+  <button class=\"btn btn-lg btn-primary btn-block\" type=\"button\">
     <i class=\"fa fa-facebook-official\" aria-hidden=\"true\"></i>&nbsp;<a id=\"fbsign\" href=\"{{ hwi_oauth_login_url('facebook') }}\">Sign in with Facebook</a>
   </button>
   <br>Don't have an account? <a href=\"/register\">Register</a>
