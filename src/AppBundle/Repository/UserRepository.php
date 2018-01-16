@@ -6,6 +6,7 @@ use HWI\Bundle\OAuthBundle\Security\Core\User\OAuthAwareUserProviderInterface;
 use HWI\Bundle\OAuthBundle\OAuth\Response\UserResponseInterface;
 use Doctrine\ORM\EntityRepository;
 use Symfony\Component\Security\Core\User\UserInterface;
+use AppBundle\Entity\User;
 
 class UserRepository extends EntityRepository  implements OAuthAwareUserProviderInterface
 {
@@ -13,7 +14,7 @@ class UserRepository extends EntityRepository  implements OAuthAwareUserProvider
   public function findAllUsers()
   {
     return $this->getEntityManager()
-      ->createQUery(
+      ->createQuery(
         'SELECT u FROM AppBundle:User u'
         )
       ->getResult();
@@ -21,9 +22,25 @@ class UserRepository extends EntityRepository  implements OAuthAwareUserProvider
 
   public function loadUserByOAuthUserResponse(UserResponseInterface $response)
   {
+
     $username = $response->getUsername();
-    var_dump($response->getResponse());
-    exit;
+    $email = $response->getEmail();
+    $user = $this->getEntityManager()
+                 ->createQuery(
+                   "SELECT u FROM AppBundle:User u WHERE u.email='$email'"
+                   )
+                 ->getOneOrNullResult();
+
+    if (null === $user) {
+      $user = new User();
+      $user->setUsername(strtolower(str_replace(' ', '', $response->getRealName())));
+      $user->setEmail($response->getEmail());
+      $em = $this->getEntityManager();
+      $em->persist($user);
+      $em->flush();
+    }
+
+    /*
     $user = $this->userManager->findUserBy(array($this->getProperty($response) => $username));
     //when the user is registrating
     if (null === $user) {
@@ -50,8 +67,7 @@ class UserRepository extends EntityRepository  implements OAuthAwareUserProvider
     $setter = 'set' . ucfirst($serviceName) . 'AccessToken';
     //update access token
     $user->$setter($response->getAccessToken());
-    var_dump($response->getResponse());
-    exit;
+    */
     return $user;
 
   }
