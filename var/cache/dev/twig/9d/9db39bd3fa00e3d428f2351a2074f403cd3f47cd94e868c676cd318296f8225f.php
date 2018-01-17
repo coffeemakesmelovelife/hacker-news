@@ -10,6 +10,7 @@ class __TwigTemplate_0b815f0ef9614ea8ce24d3f255319831783f6a333b152d820bf540daba5
         // line 1
         $this->parent = $this->loadTemplate("base.html.twig", "default/index.html.twig", 1);
         $this->blocks = array(
+            'title' => array($this, 'block_title'),
             'body' => array($this, 'block_body'),
         );
     }
@@ -21,61 +22,168 @@ class __TwigTemplate_0b815f0ef9614ea8ce24d3f255319831783f6a333b152d820bf540daba5
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_0832fb404c54c5316d3dba9b6adccd160517c05a478fa006d4640dffda65f21e = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_0832fb404c54c5316d3dba9b6adccd160517c05a478fa006d4640dffda65f21e->enter($__internal_0832fb404c54c5316d3dba9b6adccd160517c05a478fa006d4640dffda65f21e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "default/index.html.twig"));
+        $__internal_20b4debed29b8d706ed67a71c4d7a3dc962d23fd1fef38379ab117ccee2c2cf0 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_20b4debed29b8d706ed67a71c4d7a3dc962d23fd1fef38379ab117ccee2c2cf0->enter($__internal_20b4debed29b8d706ed67a71c4d7a3dc962d23fd1fef38379ab117ccee2c2cf0_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "default/index.html.twig"));
 
-        $__internal_394e034125483be166b4f920dbcffd9e668de307cb3455feaf7f9472f0d87b01 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_394e034125483be166b4f920dbcffd9e668de307cb3455feaf7f9472f0d87b01->enter($__internal_394e034125483be166b4f920dbcffd9e668de307cb3455feaf7f9472f0d87b01_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "default/index.html.twig"));
+        $__internal_f5ddec94eb7b0df92dbf43bab06db242c75204e5a781872632285adfc8903bc6 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_f5ddec94eb7b0df92dbf43bab06db242c75204e5a781872632285adfc8903bc6->enter($__internal_f5ddec94eb7b0df92dbf43bab06db242c75204e5a781872632285adfc8903bc6_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "default/index.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_0832fb404c54c5316d3dba9b6adccd160517c05a478fa006d4640dffda65f21e->leave($__internal_0832fb404c54c5316d3dba9b6adccd160517c05a478fa006d4640dffda65f21e_prof);
+        $__internal_20b4debed29b8d706ed67a71c4d7a3dc962d23fd1fef38379ab117ccee2c2cf0->leave($__internal_20b4debed29b8d706ed67a71c4d7a3dc962d23fd1fef38379ab117ccee2c2cf0_prof);
 
         
-        $__internal_394e034125483be166b4f920dbcffd9e668de307cb3455feaf7f9472f0d87b01->leave($__internal_394e034125483be166b4f920dbcffd9e668de307cb3455feaf7f9472f0d87b01_prof);
+        $__internal_f5ddec94eb7b0df92dbf43bab06db242c75204e5a781872632285adfc8903bc6->leave($__internal_f5ddec94eb7b0df92dbf43bab06db242c75204e5a781872632285adfc8903bc6_prof);
 
     }
 
-    // line 3
+    // line 2
+    public function block_title($context, array $blocks = array())
+    {
+        $__internal_aa4b3c033df03a60d4eeef53d87d491cadd2f566bce61c7b20b292ad1ab8b3f3 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_aa4b3c033df03a60d4eeef53d87d491cadd2f566bce61c7b20b292ad1ab8b3f3->enter($__internal_aa4b3c033df03a60d4eeef53d87d491cadd2f566bce61c7b20b292ad1ab8b3f3_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
+
+        $__internal_737e2dddb48309c2c8ecd5f421c7d9a3bcc2c908a9a141e3d7d33d7faa26bd95 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_737e2dddb48309c2c8ecd5f421c7d9a3bcc2c908a9a141e3d7d33d7faa26bd95->enter($__internal_737e2dddb48309c2c8ecd5f421c7d9a3bcc2c908a9a141e3d7d33d7faa26bd95_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
+
+        echo " Hacker News ";
+        
+        $__internal_737e2dddb48309c2c8ecd5f421c7d9a3bcc2c908a9a141e3d7d33d7faa26bd95->leave($__internal_737e2dddb48309c2c8ecd5f421c7d9a3bcc2c908a9a141e3d7d33d7faa26bd95_prof);
+
+        
+        $__internal_aa4b3c033df03a60d4eeef53d87d491cadd2f566bce61c7b20b292ad1ab8b3f3->leave($__internal_aa4b3c033df03a60d4eeef53d87d491cadd2f566bce61c7b20b292ad1ab8b3f3_prof);
+
+    }
+
+    // line 4
     public function block_body($context, array $blocks = array())
     {
-        $__internal_cab046f11abf300be3f9aa626c819e8420c665e3d5742411d74a2e2e82455b44 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_cab046f11abf300be3f9aa626c819e8420c665e3d5742411d74a2e2e82455b44->enter($__internal_cab046f11abf300be3f9aa626c819e8420c665e3d5742411d74a2e2e82455b44_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_3e2e32e87a7dbc61bbaa77df2debd7e76c310a23e3aa0b44d535aa3033e8a684 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_3e2e32e87a7dbc61bbaa77df2debd7e76c310a23e3aa0b44d535aa3033e8a684->enter($__internal_3e2e32e87a7dbc61bbaa77df2debd7e76c310a23e3aa0b44d535aa3033e8a684_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        $__internal_a6243b3021d77b4632160335168b2e7f87ed2d1a63c13f502fc1bea6a131cb43 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_a6243b3021d77b4632160335168b2e7f87ed2d1a63c13f502fc1bea6a131cb43->enter($__internal_a6243b3021d77b4632160335168b2e7f87ed2d1a63c13f502fc1bea6a131cb43_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_a9e2483186a7d462a613839da4f2bd205d1e7db60ee1ed04d1db5125542480e7 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_a9e2483186a7d462a613839da4f2bd205d1e7db60ee1ed04d1db5125542480e7->enter($__internal_a9e2483186a7d462a613839da4f2bd205d1e7db60ee1ed04d1db5125542480e7_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        // line 4
-        echo "<nav class=\"navbar navbar-expand-lg navbar-dark bg-dark\">
-<a class=\"navbar-brand\" href=\"/\"><i>Hacker News</i></a>
-<button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
-  <span class=\"navbar-toggler-icon\"></span>
-</button>
-
-<div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">
-  <ul class=\"navbar-nav ml-auto\">
-    <li class=\"nav-item\">
-      <a class=\"nav-link\" href=\"";
-        // line 13
-        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("homepage");
-        echo "\">Home <span class=\"sr-only\"></span></a>
-    </li>
-    <li class=\"nav-item\">
-      <a class=\"nav-link\" href=\"";
+        // line 5
+        echo "<div class=\"container\">
+  <br>
+  <h2 class=\"\">Posts by other Hackers:</h2>
+  <br>
+  ";
+        // line 9
+        $context['_parent'] = $context;
+        $context['_seq'] = twig_ensure_traversable($this->getAttribute(($context["app"] ?? $this->getContext($context, "app")), "flashes", array()));
+        foreach ($context['_seq'] as $context["label"] => $context["messages"]) {
+            // line 10
+            echo "    ";
+            $context['_parent'] = $context;
+            $context['_seq'] = twig_ensure_traversable($context["messages"]);
+            foreach ($context['_seq'] as $context["_key"] => $context["message"]) {
+                // line 11
+                echo "        <div class=\"flash-";
+                echo twig_escape_filter($this->env, $context["label"], "html", null, true);
+                echo "\">
+            ";
+                // line 12
+                echo twig_escape_filter($this->env, $context["message"], "html", null, true);
+                echo "
+        </div>
+    ";
+            }
+            $_parent = $context['_parent'];
+            unset($context['_seq'], $context['_iterated'], $context['_key'], $context['message'], $context['_parent'], $context['loop']);
+            $context = array_intersect_key($context, $_parent) + $_parent;
+            // line 15
+            echo "  ";
+        }
+        $_parent = $context['_parent'];
+        unset($context['_seq'], $context['_iterated'], $context['label'], $context['messages'], $context['_parent'], $context['loop']);
+        $context = array_intersect_key($context, $_parent) + $_parent;
         // line 16
-        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("logout");
-        echo "\">Logout</a>
-    </li>
-  </ul>
-</div>
-</nav>
-      <h1 class=\"text-center\">Home</h1>
+        echo "</div>
+  <div class=\"container main-section border\">
+    ";
+        // line 18
+        $context['_parent'] = $context;
+        $context['_seq'] = twig_ensure_traversable(($context["posts"] ?? $this->getContext($context, "posts")));
+        foreach ($context['_seq'] as $context["_key"] => $context["post"]) {
+            // line 19
+            echo "
+    <div class=\"row\">
+    <div class=\"col-lg-12 col-sm-12 col-12\">
+      <div class=\"row\">
+        <div class=\"col-lg-12\">
+          <h4 class=\"text-primary\"><a class=\"no-under\" href=\"/post/";
+            // line 24
+            echo twig_escape_filter($this->env, $this->getAttribute($context["post"], "id", array()), "html", null, true);
+            echo "\">";
+            echo twig_escape_filter($this->env, $this->getAttribute($context["post"], "post_title", array()), "html", null, true);
+            echo "</a></h4>
+          <p>
+            ";
+            // line 26
+            echo twig_escape_filter($this->env, $this->getAttribute($context["post"], "post_body", array()), "html", null, true);
+            echo "
+          </p>
+          <button class=\"btn btn-sm btn-primary\">
+            <i class=\"fa fa-thumbs-o-up\" aria-hidden=\"true\"></i> &nbsp; Like
+          </button>
+        </div>
+      </div>
+      <div class=\"row post-detail\">
+        <div class=\"col-lg-12 col-sm-12 col-12\">
+            <ul class=\"list-inline\">
+              <li class=\"list-inline-item\">
+                <img src=\"https://dummyimage.com/20x20/a8a1a8/0f0f12\" class=\"rounded-circle\" width=\"20px\"> <span>by</span> <span class=\"text-info\">Lisa</span>
+              </li>
+              <li class=\"list-inline-item\">
+                <i class=\"fa fa-calendar\" aria-hidden=\"true\"></i> <span>";
+            // line 40
+            echo twig_escape_filter($this->env, twig_date_format_filter($this->env, $this->getAttribute($context["post"], "posted_at", array()), "F jS \\a\\t g:ia"), "html", null, true);
+            echo "</span>
+              </li>
+              <li class=\"list-inline-item\">
+                <i class=\"fa fa-comment\" aria-hidden=\"true\"></i> <span class=\"text-info\">3 Comments</span>
+              </li>
+            </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  ";
+        }
+        $_parent = $context['_parent'];
+        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['post'], $context['_parent'], $context['loop']);
+        $context = array_intersect_key($context, $_parent) + $_parent;
+        // line 52
+        echo "  </div>
+<style>
+body{
+}
+.main-section{
+\tpadding:15px;
+\tbackground-color: #fff;
+}
+.list-inline-item{
+\tborder-right:1px solid black;
+\tpadding-right:6px;
+\tline-height:0.4em;
+}
+.list-inline-item:last-child{
+\tborder:none;
+}
+.post-detail ul{
+\tmargin-top:15px;
+}
+</style>
+
 ";
         
-        $__internal_a6243b3021d77b4632160335168b2e7f87ed2d1a63c13f502fc1bea6a131cb43->leave($__internal_a6243b3021d77b4632160335168b2e7f87ed2d1a63c13f502fc1bea6a131cb43_prof);
+        $__internal_a9e2483186a7d462a613839da4f2bd205d1e7db60ee1ed04d1db5125542480e7->leave($__internal_a9e2483186a7d462a613839da4f2bd205d1e7db60ee1ed04d1db5125542480e7_prof);
 
         
-        $__internal_cab046f11abf300be3f9aa626c819e8420c665e3d5742411d74a2e2e82455b44->leave($__internal_cab046f11abf300be3f9aa626c819e8420c665e3d5742411d74a2e2e82455b44_prof);
+        $__internal_3e2e32e87a7dbc61bbaa77df2debd7e76c310a23e3aa0b44d535aa3033e8a684->leave($__internal_3e2e32e87a7dbc61bbaa77df2debd7e76c310a23e3aa0b44d535aa3033e8a684_prof);
 
     }
 
@@ -91,7 +199,7 @@ class __TwigTemplate_0b815f0ef9614ea8ce24d3f255319831783f6a333b152d820bf540daba5
 
     public function getDebugInfo()
     {
-        return array (  66 => 16,  60 => 13,  49 => 4,  40 => 3,  11 => 1,);
+        return array (  160 => 52,  142 => 40,  125 => 26,  118 => 24,  111 => 19,  107 => 18,  103 => 16,  97 => 15,  88 => 12,  83 => 11,  78 => 10,  74 => 9,  68 => 5,  59 => 4,  41 => 2,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -105,27 +213,78 @@ class __TwigTemplate_0b815f0ef9614ea8ce24d3f255319831783f6a333b152d820bf540daba5
     public function getSourceContext()
     {
         return new Twig_Source("{% extends 'base.html.twig' %}
+{% block title %} Hacker News {% endblock %}
 
 {% block body %}
-<nav class=\"navbar navbar-expand-lg navbar-dark bg-dark\">
-<a class=\"navbar-brand\" href=\"/\"><i>Hacker News</i></a>
-<button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
-  <span class=\"navbar-toggler-icon\"></span>
-</button>
-
-<div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">
-  <ul class=\"navbar-nav ml-auto\">
-    <li class=\"nav-item\">
-      <a class=\"nav-link\" href=\"{{ path('homepage') }}\">Home <span class=\"sr-only\"></span></a>
-    </li>
-    <li class=\"nav-item\">
-      <a class=\"nav-link\" href=\"{{ path('logout') }}\">Logout</a>
-    </li>
-  </ul>
+<div class=\"container\">
+  <br>
+  <h2 class=\"\">Posts by other Hackers:</h2>
+  <br>
+  {% for label, messages in app.flashes %}
+    {% for message in messages %}
+        <div class=\"flash-{{ label }}\">
+            {{ message }}
+        </div>
+    {% endfor %}
+  {% endfor %}
 </div>
-</nav>
-      <h1 class=\"text-center\">Home</h1>
+  <div class=\"container main-section border\">
+    {% for post in posts %}
+
+    <div class=\"row\">
+    <div class=\"col-lg-12 col-sm-12 col-12\">
+      <div class=\"row\">
+        <div class=\"col-lg-12\">
+          <h4 class=\"text-primary\"><a class=\"no-under\" href=\"/post/{{ post.id }}\">{{ post.post_title }}</a></h4>
+          <p>
+            {{ post.post_body }}
+          </p>
+          <button class=\"btn btn-sm btn-primary\">
+            <i class=\"fa fa-thumbs-o-up\" aria-hidden=\"true\"></i> &nbsp; Like
+          </button>
+        </div>
+      </div>
+      <div class=\"row post-detail\">
+        <div class=\"col-lg-12 col-sm-12 col-12\">
+            <ul class=\"list-inline\">
+              <li class=\"list-inline-item\">
+                <img src=\"https://dummyimage.com/20x20/a8a1a8/0f0f12\" class=\"rounded-circle\" width=\"20px\"> <span>by</span> <span class=\"text-info\">Lisa</span>
+              </li>
+              <li class=\"list-inline-item\">
+                <i class=\"fa fa-calendar\" aria-hidden=\"true\"></i> <span>{{ post.posted_at|date('F jS \\\\a\\\\t g:ia') }}</span>
+              </li>
+              <li class=\"list-inline-item\">
+                <i class=\"fa fa-comment\" aria-hidden=\"true\"></i> <span class=\"text-info\">3 Comments</span>
+              </li>
+            </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  {% endfor %}
+  </div>
+<style>
+body{
+}
+.main-section{
+\tpadding:15px;
+\tbackground-color: #fff;
+}
+.list-inline-item{
+\tborder-right:1px solid black;
+\tpadding-right:6px;
+\tline-height:0.4em;
+}
+.list-inline-item:last-child{
+\tborder:none;
+}
+.post-detail ul{
+\tmargin-top:15px;
+}
+</style>
+
 {% endblock %}
-", "default/index.html.twig", "/home/karim/Desktop/sandbox/symfony-standard-2/app/Resources/views/default/index.html.twig");
+", "default/index.html.twig", "/home/karim/Desktop/sandbox/hacker-news/app/Resources/views/default/index.html.twig");
     }
 }

@@ -150,6 +150,16 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
             return $ret;
         }
 
+        // newpost
+        if ('/new-post' === $pathinfo) {
+            return array (  '_controller' => 'AppBundle\\Controller\\HomeController::newPostAction',  '_route' => 'newpost',);
+        }
+
+        // showpost
+        if (0 === strpos($pathinfo, '/post') && preg_match('#^/post/(?P<id>[^/]++)$#s', $pathinfo, $matches)) {
+            return $this->mergeDefaults(array_replace($matches, array('_route' => 'showpost')), array (  '_controller' => 'AppBundle\\Controller\\HomeController::showPostAction',));
+        }
+
         // register
         if ('/register' === $pathinfo) {
             return array (  '_controller' => 'AppBundle\\Controller\\RegisterController::indexAction',  '_route' => 'register',);

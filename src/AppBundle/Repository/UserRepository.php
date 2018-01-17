@@ -8,7 +8,7 @@ use Doctrine\ORM\EntityRepository;
 use Symfony\Component\Security\Core\User\UserInterface;
 use AppBundle\Entity\User;
 
-class UserRepository extends EntityRepository  implements OAuthAwareUserProviderInterface
+class UserRepository extends EntityRepository implements OAuthAwareUserProviderInterface
 {
 
   public function findAllUsers()

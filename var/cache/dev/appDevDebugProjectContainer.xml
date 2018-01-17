@@ -636,6 +636,10 @@
       <argument>AppBundle\Entity\User</argument>
       <factory service="doctrine.orm.default_entity_manager" method="getRepository"/>
     </service>
+    <service id="post_provider_service" class="AppBundle\Repository\PostRepository" public="true" autowire="true" autoconfigure="true">
+      <argument>AppBundle\Entity\Post</argument>
+      <factory service="doctrine.orm.default_entity_manager" method="getRepository"/>
+    </service>
     <service id="controller_name_converter" class="Symfony\Bundle\FrameworkBundle\Controller\ControllerNameParser" public="false">
       <tag name="monolog.logger" channel="request"/>
       <argument type="service" id="kernel"/>
@@ -652,7 +656,7 @@
     </service>
     <service id="argument_resolver.service" class="Symfony\Component\HttpKernel\Controller\ArgumentResolver\ServiceValueResolver" public="false">
       <tag name="controller.argument_value_resolver" priority="-50"/>
-      <argument type="service" id="service_locator.p8duhiv"/>
+      <argument type="service" id="service_locator.r7bt0h."/>
     </service>
     <service id="argument_resolver.default" class="Symfony\Component\HttpKernel\Controller\ArgumentResolver\DefaultValueResolver" public="false">
       <tag name="controller.argument_value_resolver" priority="-100"/>
@@ -1707,14 +1711,6 @@
       </call>
       <call method="addListener">
         <argument>kernel.request</argument>
-        <argument type="collection">
-          <argument type="service" id="debug.debug_handlers_listener"/>
-          <argument>configure</argument>
-        </argument>
-        <argument>2048</argument>
-      </call>
-      <call method="addListener">
-        <argument>console.command</argument>
         <argument type="collection">
           <argument type="service" id="debug.debug_handlers_listener"/>
           <argument>configure</argument>
@@ -4192,6 +4188,10 @@
       <tag name="container.service_locator"/>
       <argument type="collection"/>
     </service>
+    <service id="service_locator.kbah2dz" class="Symfony\Component\DependencyInjection\ServiceLocator" public="false">
+      <tag name="container.service_locator"/>
+      <argument type="collection"/>
+    </service>
     <service id="service_locator.m92v0v9" class="Symfony\Component\DependencyInjection\ServiceLocator" public="false">
       <tag name="container.service_locator"/>
       <argument type="collection">
@@ -4204,7 +4204,7 @@
         <argument key="passwordEncoder" type="service" id="security.user_password_encoder.generic" on-invalid="ignore"/>
       </argument>
     </service>
-    <service id="service_locator.p8duhiv" class="Symfony\Component\DependencyInjection\ServiceLocator" public="false">
+    <service id="service_locator.r7bt0h." class="Symfony\Component\DependencyInjection\ServiceLocator" public="false">
       <tag name="container.service_locator"/>
       <argument type="collection">
         <argument key="AppBundle\Controller\LoginController:indexAction" type="service" id="service_locator.m92v0v9"/>

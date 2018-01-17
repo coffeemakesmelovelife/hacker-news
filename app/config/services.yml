@@ -35,6 +35,14 @@ services:
         arguments:
           - AppBundle\Entity\User
 
+    post_provider_service:
+        class: 'AppBundle\Repository\PostRepository'
+        public: true
+        factory: ['@doctrine.orm.entity_manager', getRepository]
+        arguments:
+          - AppBundle\Entity\Post
+
+
     # add more services, or override services that need manual wiring
     # AppBundle\Service\ExampleService:
     #     arguments:

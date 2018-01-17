@@ -13,6 +13,18 @@ use Symfony\Component\Security\Core\User\UserInterface;
  */
 class User implements UserInterface
 {
+
+   /**
+    * @ORM\OneToMany(targetEntity="Post", mappedBy="user")
+    * @ORM\JoinColumn(name="post_id", referencedColumnName="id")
+    */
+    private $posts;
+
+    public function _construct(){
+
+      return $this->posts = new ArrayCollection();
+    }
+
     /**
      * @var int
      *
@@ -151,5 +163,46 @@ class User implements UserInterface
     public function getSalt()
     {
         return null;
+    }
+    /**
+     * Constructor
+     */
+    public function __construct()
+    {
+        $this->posts = new \Doctrine\Common\Collections\ArrayCollection();
+    }
+
+    /**
+     * Add post
+     *
+     * @param \AppBundle\Entity\Post $post
+     *
+     * @return User
+     */
+    public function addPost(\AppBundle\Entity\Post $post)
+    {
+        $this->posts[] = $post;
+
+        return $this;
+    }
+
+    /**
+     * Remove post
+     *
+     * @param \AppBundle\Entity\Post $post
+     */
+    public function removePost(\AppBundle\Entity\Post $post)
+    {
+        $this->posts->removeElement($post);
+    }
+
+    /**
+     * Get posts
+     *
+     * @return \Doctrine\Common\Collections\Collection
+     */
+    public function getPosts()
+    {
+        return $this->posts;
     }
 }
