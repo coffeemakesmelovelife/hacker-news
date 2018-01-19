@@ -155,6 +155,11 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
             return array (  '_controller' => 'AppBundle\\Controller\\HomeController::newPostAction',  '_route' => 'newpost',);
         }
 
+        // newcomment
+        if ('/new-comment' === $pathinfo) {
+            return array (  '_controller' => 'AppBundle\\Controller\\HomeController::addCommentAction',  '_route' => 'newcomment',);
+        }
+
         // showpost
         if (0 === strpos($pathinfo, '/post') && preg_match('#^/post/(?P<id>[^/]++)$#s', $pathinfo, $matches)) {
             return $this->mergeDefaults(array_replace($matches, array('_route' => 'showpost')), array (  '_controller' => 'AppBundle\\Controller\\HomeController::showPostAction',));

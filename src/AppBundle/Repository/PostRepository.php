@@ -12,7 +12,9 @@ class PostRepository extends EntityRepository
   {
     return $this->getEntityManager()
       ->createQuery(
-        'SELECT p FROM AppBundle:Post p'
+        'SELECT p, u.username
+         FROM AppBundle:Post p
+         JOIN p.user u '
         )
       ->getArrayResult();
   }
@@ -21,8 +23,21 @@ class PostRepository extends EntityRepository
   {
     return $this->getEntityManager()
     ->createQuery(
-      "SELECT p FROM AppBundle:Post p WHERE p.id = '$id'"
+      "SELECT p, u.username
+       FROM AppBundle:Post
+       p JOIN p.user u
+        WHERE p.id = '$id'"
       )->getArrayResult();
+  }
+
+  public function findPostById($id)
+  {
+    return $this->getEntityManager()
+    ->createQuery(
+      "SELECT p
+       FROM AppBundle:Post
+       p WHERE p.id = '$id'"
+      )->getOneOrNullResult();
   }
 
 

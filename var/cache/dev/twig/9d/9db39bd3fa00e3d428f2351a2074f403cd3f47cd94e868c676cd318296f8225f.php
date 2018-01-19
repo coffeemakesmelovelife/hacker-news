@@ -22,50 +22,50 @@ class __TwigTemplate_0b815f0ef9614ea8ce24d3f255319831783f6a333b152d820bf540daba5
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_20b4debed29b8d706ed67a71c4d7a3dc962d23fd1fef38379ab117ccee2c2cf0 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_20b4debed29b8d706ed67a71c4d7a3dc962d23fd1fef38379ab117ccee2c2cf0->enter($__internal_20b4debed29b8d706ed67a71c4d7a3dc962d23fd1fef38379ab117ccee2c2cf0_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "default/index.html.twig"));
+        $__internal_9d4c09f192b9858d1322c935e79b079d37e70c48c456b7b7d162f257ec78f9d4 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_9d4c09f192b9858d1322c935e79b079d37e70c48c456b7b7d162f257ec78f9d4->enter($__internal_9d4c09f192b9858d1322c935e79b079d37e70c48c456b7b7d162f257ec78f9d4_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "default/index.html.twig"));
 
-        $__internal_f5ddec94eb7b0df92dbf43bab06db242c75204e5a781872632285adfc8903bc6 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_f5ddec94eb7b0df92dbf43bab06db242c75204e5a781872632285adfc8903bc6->enter($__internal_f5ddec94eb7b0df92dbf43bab06db242c75204e5a781872632285adfc8903bc6_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "default/index.html.twig"));
+        $__internal_4e9083697470dbe566954b072f733e95ee3fb6e280dbfb7867ae3547dc7ab1e1 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_4e9083697470dbe566954b072f733e95ee3fb6e280dbfb7867ae3547dc7ab1e1->enter($__internal_4e9083697470dbe566954b072f733e95ee3fb6e280dbfb7867ae3547dc7ab1e1_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "default/index.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_20b4debed29b8d706ed67a71c4d7a3dc962d23fd1fef38379ab117ccee2c2cf0->leave($__internal_20b4debed29b8d706ed67a71c4d7a3dc962d23fd1fef38379ab117ccee2c2cf0_prof);
+        $__internal_9d4c09f192b9858d1322c935e79b079d37e70c48c456b7b7d162f257ec78f9d4->leave($__internal_9d4c09f192b9858d1322c935e79b079d37e70c48c456b7b7d162f257ec78f9d4_prof);
 
         
-        $__internal_f5ddec94eb7b0df92dbf43bab06db242c75204e5a781872632285adfc8903bc6->leave($__internal_f5ddec94eb7b0df92dbf43bab06db242c75204e5a781872632285adfc8903bc6_prof);
+        $__internal_4e9083697470dbe566954b072f733e95ee3fb6e280dbfb7867ae3547dc7ab1e1->leave($__internal_4e9083697470dbe566954b072f733e95ee3fb6e280dbfb7867ae3547dc7ab1e1_prof);
 
     }
 
     // line 2
     public function block_title($context, array $blocks = array())
     {
-        $__internal_aa4b3c033df03a60d4eeef53d87d491cadd2f566bce61c7b20b292ad1ab8b3f3 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_aa4b3c033df03a60d4eeef53d87d491cadd2f566bce61c7b20b292ad1ab8b3f3->enter($__internal_aa4b3c033df03a60d4eeef53d87d491cadd2f566bce61c7b20b292ad1ab8b3f3_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
+        $__internal_84dd0ad6272bbfba5f05863df9fd95de0f3e71ab76b1ef18526e9302a6983b11 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_84dd0ad6272bbfba5f05863df9fd95de0f3e71ab76b1ef18526e9302a6983b11->enter($__internal_84dd0ad6272bbfba5f05863df9fd95de0f3e71ab76b1ef18526e9302a6983b11_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
 
-        $__internal_737e2dddb48309c2c8ecd5f421c7d9a3bcc2c908a9a141e3d7d33d7faa26bd95 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_737e2dddb48309c2c8ecd5f421c7d9a3bcc2c908a9a141e3d7d33d7faa26bd95->enter($__internal_737e2dddb48309c2c8ecd5f421c7d9a3bcc2c908a9a141e3d7d33d7faa26bd95_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
+        $__internal_cf14b82f00787665df9bb1ee8cc0dc81edb91a3dc16604c0fe4c9b20fe42fe83 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_cf14b82f00787665df9bb1ee8cc0dc81edb91a3dc16604c0fe4c9b20fe42fe83->enter($__internal_cf14b82f00787665df9bb1ee8cc0dc81edb91a3dc16604c0fe4c9b20fe42fe83_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
 
         echo " Hacker News ";
         
-        $__internal_737e2dddb48309c2c8ecd5f421c7d9a3bcc2c908a9a141e3d7d33d7faa26bd95->leave($__internal_737e2dddb48309c2c8ecd5f421c7d9a3bcc2c908a9a141e3d7d33d7faa26bd95_prof);
+        $__internal_cf14b82f00787665df9bb1ee8cc0dc81edb91a3dc16604c0fe4c9b20fe42fe83->leave($__internal_cf14b82f00787665df9bb1ee8cc0dc81edb91a3dc16604c0fe4c9b20fe42fe83_prof);
 
         
-        $__internal_aa4b3c033df03a60d4eeef53d87d491cadd2f566bce61c7b20b292ad1ab8b3f3->leave($__internal_aa4b3c033df03a60d4eeef53d87d491cadd2f566bce61c7b20b292ad1ab8b3f3_prof);
+        $__internal_84dd0ad6272bbfba5f05863df9fd95de0f3e71ab76b1ef18526e9302a6983b11->leave($__internal_84dd0ad6272bbfba5f05863df9fd95de0f3e71ab76b1ef18526e9302a6983b11_prof);
 
     }
 
     // line 4
     public function block_body($context, array $blocks = array())
     {
-        $__internal_3e2e32e87a7dbc61bbaa77df2debd7e76c310a23e3aa0b44d535aa3033e8a684 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_3e2e32e87a7dbc61bbaa77df2debd7e76c310a23e3aa0b44d535aa3033e8a684->enter($__internal_3e2e32e87a7dbc61bbaa77df2debd7e76c310a23e3aa0b44d535aa3033e8a684_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_46beb889c120e15121bee66cab0380595b1e2035af6af9fb49a8e68b8ddf865e = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_46beb889c120e15121bee66cab0380595b1e2035af6af9fb49a8e68b8ddf865e->enter($__internal_46beb889c120e15121bee66cab0380595b1e2035af6af9fb49a8e68b8ddf865e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        $__internal_a9e2483186a7d462a613839da4f2bd205d1e7db60ee1ed04d1db5125542480e7 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_a9e2483186a7d462a613839da4f2bd205d1e7db60ee1ed04d1db5125542480e7->enter($__internal_a9e2483186a7d462a613839da4f2bd205d1e7db60ee1ed04d1db5125542480e7_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_0acf88fcdb6001e7eed357ce14b69a0ee8cdb94c3448e058dec4216f270414bd = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_0acf88fcdb6001e7eed357ce14b69a0ee8cdb94c3448e058dec4216f270414bd->enter($__internal_0acf88fcdb6001e7eed357ce14b69a0ee8cdb94c3448e058dec4216f270414bd_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 5
-        echo "<div class=\"container\">
+        echo "<div class=\"container\" style=\"padding-right: 0px; padding-left: 0px;\">
   <br>
   <h2 class=\"\">Posts by other Hackers:</h2>
   <br>
@@ -80,9 +80,9 @@ class __TwigTemplate_0b815f0ef9614ea8ce24d3f255319831783f6a333b152d820bf540daba5
             $context['_seq'] = twig_ensure_traversable($context["messages"]);
             foreach ($context['_seq'] as $context["_key"] => $context["message"]) {
                 // line 11
-                echo "        <div class=\"flash-";
+                echo "        <div class=\"alert alert-";
                 echo twig_escape_filter($this->env, $context["label"], "html", null, true);
-                echo "\">
+                echo "\" role=\"alert\">
             ";
                 // line 12
                 echo twig_escape_filter($this->env, $context["message"], "html", null, true);
@@ -109,54 +109,61 @@ class __TwigTemplate_0b815f0ef9614ea8ce24d3f255319831783f6a333b152d820bf540daba5
         foreach ($context['_seq'] as $context["_key"] => $context["post"]) {
             // line 19
             echo "
-    <div class=\"row\">
-    <div class=\"col-lg-12 col-sm-12 col-12\">
       <div class=\"row\">
-        <div class=\"col-lg-12\">
-          <h4 class=\"text-primary\"><a class=\"no-under\" href=\"/post/";
+      <div class=\"col-lg-12 col-sm-12 col-12\">
+        <div class=\"row\">
+          <div class=\"col-lg-12\">
+            <h4 class=\"text-primary\"><a class=\"no-under\" href=\"/post/";
             // line 24
-            echo twig_escape_filter($this->env, $this->getAttribute($context["post"], "id", array()), "html", null, true);
+            echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute($context["post"], 0, array(), "array"), "id", array(), "array"), "html", null, true);
             echo "\">";
-            echo twig_escape_filter($this->env, $this->getAttribute($context["post"], "post_title", array()), "html", null, true);
+            echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute($context["post"], 0, array(), "array"), "post_title", array(), "array"), "html", null, true);
             echo "</a></h4>
-          <p>
-            ";
+            <p>
+              ";
             // line 26
-            echo twig_escape_filter($this->env, $this->getAttribute($context["post"], "post_body", array()), "html", null, true);
+            echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute($context["post"], 0, array(), "array"), "post_body", array(), "array"), "html", null, true);
             echo "
-          </p>
-          <button class=\"btn btn-sm btn-primary\">
-            <i class=\"fa fa-thumbs-o-up\" aria-hidden=\"true\"></i> &nbsp; Like
-          </button>
+            </p>
+            <a class=\"no-under\" href=\"/\">
+              <i class=\"fa fa-thumbs-o-up\" aria-hidden=\"true\"></i> &nbsp; Like
+            </a>&nbsp;
+            <a class=\"no-under\" href=\"/\">
+              <i class=\"fa fa-comment-o\" aria-hidden=\"true\"></i> &nbsp; Comment
+            </a>
+          </div>
         </div>
-      </div>
-      <div class=\"row post-detail\">
-        <div class=\"col-lg-12 col-sm-12 col-12\">
-            <ul class=\"list-inline\">
-              <li class=\"list-inline-item\">
-                <img src=\"https://dummyimage.com/20x20/a8a1a8/0f0f12\" class=\"rounded-circle\" width=\"20px\"> <span>by</span> <span class=\"text-info\">Lisa</span>
-              </li>
-              <li class=\"list-inline-item\">
-                <i class=\"fa fa-calendar\" aria-hidden=\"true\"></i> <span>";
+        <div class=\"row post-detail\">
+          <div class=\"col-lg-12 col-sm-12 col-12\">
+              <ul class=\"list-inline\">
+                <li class=\"list-inline-item\">
+                  <img src=\"https://dummyimage.com/20x20/a8a1a8/0f0f12\" class=\"rounded-circle\" width=\"20px\"> <span>by</span> <span class=\"text-info\">";
             // line 40
-            echo twig_escape_filter($this->env, twig_date_format_filter($this->env, $this->getAttribute($context["post"], "posted_at", array()), "F jS \\a\\t g:ia"), "html", null, true);
+            echo twig_escape_filter($this->env, $this->getAttribute($context["post"], "username", array(), "array"), "html", null, true);
             echo "</span>
-              </li>
-              <li class=\"list-inline-item\">
-                <i class=\"fa fa-comment\" aria-hidden=\"true\"></i> <span class=\"text-info\">3 Comments</span>
-              </li>
-            </ul>
+                </li>
+                <li class=\"list-inline-item\">
+                  <i class=\"fa fa-calendar\" aria-hidden=\"true\"></i> <span>";
+            // line 43
+            echo twig_escape_filter($this->env, twig_date_format_filter($this->env, $this->getAttribute($this->getAttribute($context["post"], 0, array(), "array"), "posted_at", array(), "array"), "F jS \\a\\t g:ia"), "html", null, true);
+            echo "</span>
+                </li>
+                <li class=\"list-inline-item\">
+                  <i class=\"fa fa-comment\" aria-hidden=\"true\"></i> <span class=\"text-info\">3 Comments</span>
+                </li>
+              </ul>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-  <hr>
-  ";
+      </div>
+      <hr>
+
+    ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['post'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 52
+        // line 56
         echo "  </div>
 <style>
 body{
@@ -180,10 +187,10 @@ body{
 
 ";
         
-        $__internal_a9e2483186a7d462a613839da4f2bd205d1e7db60ee1ed04d1db5125542480e7->leave($__internal_a9e2483186a7d462a613839da4f2bd205d1e7db60ee1ed04d1db5125542480e7_prof);
+        $__internal_0acf88fcdb6001e7eed357ce14b69a0ee8cdb94c3448e058dec4216f270414bd->leave($__internal_0acf88fcdb6001e7eed357ce14b69a0ee8cdb94c3448e058dec4216f270414bd_prof);
 
         
-        $__internal_3e2e32e87a7dbc61bbaa77df2debd7e76c310a23e3aa0b44d535aa3033e8a684->leave($__internal_3e2e32e87a7dbc61bbaa77df2debd7e76c310a23e3aa0b44d535aa3033e8a684_prof);
+        $__internal_46beb889c120e15121bee66cab0380595b1e2035af6af9fb49a8e68b8ddf865e->leave($__internal_46beb889c120e15121bee66cab0380595b1e2035af6af9fb49a8e68b8ddf865e_prof);
 
     }
 
@@ -199,7 +206,7 @@ body{
 
     public function getDebugInfo()
     {
-        return array (  160 => 52,  142 => 40,  125 => 26,  118 => 24,  111 => 19,  107 => 18,  103 => 16,  97 => 15,  88 => 12,  83 => 11,  78 => 10,  74 => 9,  68 => 5,  59 => 4,  41 => 2,  11 => 1,);
+        return array (  167 => 56,  148 => 43,  142 => 40,  125 => 26,  118 => 24,  111 => 19,  107 => 18,  103 => 16,  97 => 15,  88 => 12,  83 => 11,  78 => 10,  74 => 9,  68 => 5,  59 => 4,  41 => 2,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -216,13 +223,13 @@ body{
 {% block title %} Hacker News {% endblock %}
 
 {% block body %}
-<div class=\"container\">
+<div class=\"container\" style=\"padding-right: 0px; padding-left: 0px;\">
   <br>
   <h2 class=\"\">Posts by other Hackers:</h2>
   <br>
   {% for label, messages in app.flashes %}
     {% for message in messages %}
-        <div class=\"flash-{{ label }}\">
+        <div class=\"alert alert-{{ label }}\" role=\"alert\">
             {{ message }}
         </div>
     {% endfor %}
@@ -231,38 +238,42 @@ body{
   <div class=\"container main-section border\">
     {% for post in posts %}
 
-    <div class=\"row\">
-    <div class=\"col-lg-12 col-sm-12 col-12\">
       <div class=\"row\">
-        <div class=\"col-lg-12\">
-          <h4 class=\"text-primary\"><a class=\"no-under\" href=\"/post/{{ post.id }}\">{{ post.post_title }}</a></h4>
-          <p>
-            {{ post.post_body }}
-          </p>
-          <button class=\"btn btn-sm btn-primary\">
-            <i class=\"fa fa-thumbs-o-up\" aria-hidden=\"true\"></i> &nbsp; Like
-          </button>
+      <div class=\"col-lg-12 col-sm-12 col-12\">
+        <div class=\"row\">
+          <div class=\"col-lg-12\">
+            <h4 class=\"text-primary\"><a class=\"no-under\" href=\"/post/{{ post[0]['id'] }}\">{{ post[0]['post_title'] }}</a></h4>
+            <p>
+              {{ post[0]['post_body'] }}
+            </p>
+            <a class=\"no-under\" href=\"/\">
+              <i class=\"fa fa-thumbs-o-up\" aria-hidden=\"true\"></i> &nbsp; Like
+            </a>&nbsp;
+            <a class=\"no-under\" href=\"/\">
+              <i class=\"fa fa-comment-o\" aria-hidden=\"true\"></i> &nbsp; Comment
+            </a>
+          </div>
+        </div>
+        <div class=\"row post-detail\">
+          <div class=\"col-lg-12 col-sm-12 col-12\">
+              <ul class=\"list-inline\">
+                <li class=\"list-inline-item\">
+                  <img src=\"https://dummyimage.com/20x20/a8a1a8/0f0f12\" class=\"rounded-circle\" width=\"20px\"> <span>by</span> <span class=\"text-info\">{{ post['username'] }}</span>
+                </li>
+                <li class=\"list-inline-item\">
+                  <i class=\"fa fa-calendar\" aria-hidden=\"true\"></i> <span>{{ post[0]['posted_at']|date('F jS \\\\a\\\\t g:ia') }}</span>
+                </li>
+                <li class=\"list-inline-item\">
+                  <i class=\"fa fa-comment\" aria-hidden=\"true\"></i> <span class=\"text-info\">3 Comments</span>
+                </li>
+              </ul>
+          </div>
         </div>
       </div>
-      <div class=\"row post-detail\">
-        <div class=\"col-lg-12 col-sm-12 col-12\">
-            <ul class=\"list-inline\">
-              <li class=\"list-inline-item\">
-                <img src=\"https://dummyimage.com/20x20/a8a1a8/0f0f12\" class=\"rounded-circle\" width=\"20px\"> <span>by</span> <span class=\"text-info\">Lisa</span>
-              </li>
-              <li class=\"list-inline-item\">
-                <i class=\"fa fa-calendar\" aria-hidden=\"true\"></i> <span>{{ post.posted_at|date('F jS \\\\a\\\\t g:ia') }}</span>
-              </li>
-              <li class=\"list-inline-item\">
-                <i class=\"fa fa-comment\" aria-hidden=\"true\"></i> <span class=\"text-info\">3 Comments</span>
-              </li>
-            </ul>
-        </div>
       </div>
-    </div>
-  </div>
-  <hr>
-  {% endfor %}
+      <hr>
+
+    {% endfor %}
   </div>
 <style>
 body{

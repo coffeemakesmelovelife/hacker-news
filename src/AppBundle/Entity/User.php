@@ -20,6 +20,12 @@ class User implements UserInterface
     */
     private $posts;
 
+    /**
+     * @ORM\OneToMany(targetEntity="Comment", mappedBy="user")
+     * @ORM\JoinColumn(name="comment_id", referencedColumnName="id")
+     */
+     private $comments;
+
     public function _construct(){
 
       return $this->posts = new ArrayCollection();
@@ -205,4 +211,6 @@ class User implements UserInterface
     {
         return $this->posts;
     }
+
+    
 }
