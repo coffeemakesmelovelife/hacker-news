@@ -142,12 +142,22 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
 
         // homepage
         if ('' === $trimmedPathinfo) {
-            $ret = array (  '_controller' => 'AppBundle\\Controller\\HomeController::indexAction',  '_route' => 'homepage',);
+            $ret = array (  'page' => 1,  '_controller' => 'AppBundle\\Controller\\HomeController::indexAction',  '_route' => 'homepage',);
             if (substr($pathinfo, -1) !== '/') {
                 return array_replace($ret, $this->redirect($rawPathinfo.'/', 'homepage'));
             }
 
             return $ret;
+        }
+
+        // pages
+        if (0 === strpos($pathinfo, '/page') && preg_match('#^/page(?:/(?P<page>[^/]++))?$#s', $pathinfo, $matches)) {
+            return $this->mergeDefaults(array_replace($matches, array('_route' => 'pages')), array (  'page' => 1,  '_controller' => 'AppBundle\\Controller\\HomeController::indexAction',));
+        }
+
+        // showpost
+        if (0 === strpos($pathinfo, '/post') && preg_match('#^/post/(?P<id>[^/]++)$#s', $pathinfo, $matches)) {
+            return $this->mergeDefaults(array_replace($matches, array('_route' => 'showpost')), array (  '_controller' => 'AppBundle\\Controller\\PostController::showPostAction',));
         }
 
         // newpost
@@ -158,11 +168,6 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
         // newcomment
         if ('/new-comment' === $pathinfo) {
             return array (  '_controller' => 'AppBundle\\Controller\\PostController::addCommentAction',  '_route' => 'newcomment',);
-        }
-
-        // showpost
-        if (0 === strpos($pathinfo, '/post') && preg_match('#^/post/(?P<id>[^/]++)$#s', $pathinfo, $matches)) {
-            return $this->mergeDefaults(array_replace($matches, array('_route' => 'showpost')), array (  '_controller' => 'AppBundle\\Controller\\PostController::showPostAction',));
         }
 
         // downvotepost

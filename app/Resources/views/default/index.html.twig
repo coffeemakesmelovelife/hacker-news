@@ -16,14 +16,14 @@
           {{ 'active-default-btn' }}
           {% endif %}
           ">
-            <a class="btn-link" href="/?sort_by=most_recent">Most Recent</a>
+            <a class="btn-link" href="?sort_by=most_recent">Most Recent</a>
           </button>
           <button type="button" class="btn btn-sm
           {% if(app.request.query.get('sort_by') == 'most_liked') %}
           {{ 'active-default-btn' }}
           {% endif %}
           ">
-            <a class="btn-link" href="/?sort_by=most_liked">Most Liked</a>
+            <a class="btn-link" href="?sort_by=most_liked">Most Liked</a>
           </button>
         </div>
       </div>
@@ -42,7 +42,7 @@
   <div class="container main-section" style="padding:0;">
     {% for post in posts %}
 
-      <div class="row article-panel">
+      <div class="row article-panel post">
       <div class="col-lg-12 col-sm-12 col-12">
         <div class="row">
           <div class="col-lg-12">
@@ -89,7 +89,18 @@
       <br>
 
     {% endfor %}
+
   </div>
+  <div class="text-center">
+    <br>
+    <button class="btn btn-primary view-more-button" role="button">Show more</button>
+    <br>
+    <br>
+
+  </div>
+  <div class="page-load-status">
+  <p class="infinite-scroll-request">End of content, no more posts to load.</p>
+</div>
 <style>
 body{
 }
@@ -107,6 +118,14 @@ body{
 }
 .post-detail ul{
 	margin-top:15px;
+}
+
+.page-load-status {
+  display: none; /* hidden by default */
+  padding-top: 20px;
+  border-top: 1px solid #DDD;
+  text-align: center;
+  color: #777;
 }
 </style>
 
