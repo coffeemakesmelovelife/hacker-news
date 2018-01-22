@@ -15,11 +15,11 @@ class __TwigTemplate_533f5443ae9b99b9b5057c373d7f41f9af87ed46168f75f13c8cdd89307
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_4a69d244f1c6a525f6475b29c8d5c64c6999eda8c5f4937bbb420a9b5e6ec4cc = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_4a69d244f1c6a525f6475b29c8d5c64c6999eda8c5f4937bbb420a9b5e6ec4cc->enter($__internal_4a69d244f1c6a525f6475b29c8d5c64c6999eda8c5f4937bbb420a9b5e6ec4cc_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Icon/cache.svg"));
+        $__internal_a6fec296f480b9cdf2dd223e99e6de3a38ad0e619c5f3276b695d7ec7f6864ff = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_a6fec296f480b9cdf2dd223e99e6de3a38ad0e619c5f3276b695d7ec7f6864ff->enter($__internal_a6fec296f480b9cdf2dd223e99e6de3a38ad0e619c5f3276b695d7ec7f6864ff_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Icon/cache.svg"));
 
-        $__internal_81d9abeea8f512efe11d4eca12c03d8d98ba38fe68d783789a2d50ed4e267a36 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_81d9abeea8f512efe11d4eca12c03d8d98ba38fe68d783789a2d50ed4e267a36->enter($__internal_81d9abeea8f512efe11d4eca12c03d8d98ba38fe68d783789a2d50ed4e267a36_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Icon/cache.svg"));
+        $__internal_31987f059e3428e120f9b7e0462bcd5dc2564120fe2dd97b0e41fa1c267ce70b = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_31987f059e3428e120f9b7e0462bcd5dc2564120fe2dd97b0e41fa1c267ce70b->enter($__internal_31987f059e3428e120f9b7e0462bcd5dc2564120fe2dd97b0e41fa1c267ce70b_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Icon/cache.svg"));
 
         // line 1
         echo "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" enable-background=\"new 0 0 24 24\" xml:space=\"preserve\">
@@ -27,10 +27,10 @@ class __TwigTemplate_533f5443ae9b99b9b5057c373d7f41f9af87ed46168f75f13c8cdd89307
 </svg>
 ";
         
-        $__internal_4a69d244f1c6a525f6475b29c8d5c64c6999eda8c5f4937bbb420a9b5e6ec4cc->leave($__internal_4a69d244f1c6a525f6475b29c8d5c64c6999eda8c5f4937bbb420a9b5e6ec4cc_prof);
+        $__internal_a6fec296f480b9cdf2dd223e99e6de3a38ad0e619c5f3276b695d7ec7f6864ff->leave($__internal_a6fec296f480b9cdf2dd223e99e6de3a38ad0e619c5f3276b695d7ec7f6864ff_prof);
 
         
-        $__internal_81d9abeea8f512efe11d4eca12c03d8d98ba38fe68d783789a2d50ed4e267a36->leave($__internal_81d9abeea8f512efe11d4eca12c03d8d98ba38fe68d783789a2d50ed4e267a36_prof);
+        $__internal_31987f059e3428e120f9b7e0462bcd5dc2564120fe2dd97b0e41fa1c267ce70b->leave($__internal_31987f059e3428e120f9b7e0462bcd5dc2564120fe2dd97b0e41fa1c267ce70b_prof);
 
     }
 
@@ -57,6 +57,6 @@ class __TwigTemplate_533f5443ae9b99b9b5057c373d7f41f9af87ed46168f75f13c8cdd89307
         return new Twig_Source("<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" enable-background=\"new 0 0 24 24\" xml:space=\"preserve\">
 <path fill=\"#AAA\" d=\"M2.26 6.09l9.06-4.67a1.49 1.49 0 0 1 1.37 0l9.06 4.67a1.49 1.49 0 0 1 0 2.65l-9.06 4.67a1.49 1.49 0 0 1-1.37 0L2.26 8.74a1.49 1.49 0 0 1 0-2.65zM20.55 11L12 15.39 3.45 11a1.36 1.36 0 0 0-1.25 2.42l9.17 4.73a1.36 1.36 0 0 0 1.25 0l9.17-4.73A1.36 1.36 0 0 0 20.55 11zm0 4.47L12 19.86l-8.55-4.41a1.36 1.36 0 0 0-1.25 2.42l9.17 4.73a1.36 1.36 0 0 0 1.25 0l9.17-4.73a1.36 1.36 0 0 0-1.25-2.42z\"/>
 </svg>
-", "@WebProfiler/Icon/cache.svg", "/home/karim/Desktop/sandbox/symfony-standard-2/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Icon/cache.svg");
+", "@WebProfiler/Icon/cache.svg", "/home/karim/Desktop/sandbox/hacker-news/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Icon/cache.svg");
     }
 }

@@ -152,17 +152,27 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
 
         // newpost
         if ('/new-post' === $pathinfo) {
-            return array (  '_controller' => 'AppBundle\\Controller\\HomeController::newPostAction',  '_route' => 'newpost',);
+            return array (  '_controller' => 'AppBundle\\Controller\\PostController::newPostAction',  '_route' => 'newpost',);
         }
 
         // newcomment
         if ('/new-comment' === $pathinfo) {
-            return array (  '_controller' => 'AppBundle\\Controller\\HomeController::addCommentAction',  '_route' => 'newcomment',);
+            return array (  '_controller' => 'AppBundle\\Controller\\PostController::addCommentAction',  '_route' => 'newcomment',);
         }
 
         // showpost
         if (0 === strpos($pathinfo, '/post') && preg_match('#^/post/(?P<id>[^/]++)$#s', $pathinfo, $matches)) {
-            return $this->mergeDefaults(array_replace($matches, array('_route' => 'showpost')), array (  '_controller' => 'AppBundle\\Controller\\HomeController::showPostAction',));
+            return $this->mergeDefaults(array_replace($matches, array('_route' => 'showpost')), array (  '_controller' => 'AppBundle\\Controller\\PostController::showPostAction',));
+        }
+
+        // downvotepost
+        if ('/downvote-post' === $pathinfo) {
+            return array (  '_controller' => 'AppBundle\\Controller\\PostController::downvotePostAction',  '_route' => 'downvotepost',);
+        }
+
+        // upvotepost
+        if ('/upvote-post' === $pathinfo) {
+            return array (  '_controller' => 'AppBundle\\Controller\\PostController::upvotePostAction',  '_route' => 'upvotepost',);
         }
 
         // register

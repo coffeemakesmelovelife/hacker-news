@@ -14,7 +14,8 @@ class PostRepository extends EntityRepository
       ->createQuery(
         'SELECT p, u.username
          FROM AppBundle:Post p
-         JOIN p.user u '
+         JOIN p.user u
+         ORDER BY p.posted_at ASC'
         )
       ->getArrayResult();
   }

@@ -16,34 +16,34 @@ class __TwigTemplate_87b29ff08ef88a8e918c37c4180e41ff86e88faed92583d03e1123c054c
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_e899ae634f31463d897a5a9713b4ff6a9cdf959128bfd96ef3ddb9e3feb74140 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_e899ae634f31463d897a5a9713b4ff6a9cdf959128bfd96ef3ddb9e3feb74140->enter($__internal_e899ae634f31463d897a5a9713b4ff6a9cdf959128bfd96ef3ddb9e3feb74140_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "default/navbar.html.twig"));
+        $__internal_4c67a6a6dc2fd435f386cdfcb72f7b462882041ae1994e8131bd28d2129365fe = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_4c67a6a6dc2fd435f386cdfcb72f7b462882041ae1994e8131bd28d2129365fe->enter($__internal_4c67a6a6dc2fd435f386cdfcb72f7b462882041ae1994e8131bd28d2129365fe_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "default/navbar.html.twig"));
 
-        $__internal_ba5aa7d7a264b4d9eda3acf0f4318a6a271971e400249ab9410ca815ebe46ca4 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_ba5aa7d7a264b4d9eda3acf0f4318a6a271971e400249ab9410ca815ebe46ca4->enter($__internal_ba5aa7d7a264b4d9eda3acf0f4318a6a271971e400249ab9410ca815ebe46ca4_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "default/navbar.html.twig"));
+        $__internal_0584162675854c635c8ac3c198744bfda6068659517f97c20b30214bf28a7295 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_0584162675854c635c8ac3c198744bfda6068659517f97c20b30214bf28a7295->enter($__internal_0584162675854c635c8ac3c198744bfda6068659517f97c20b30214bf28a7295_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "default/navbar.html.twig"));
 
         // line 1
         $this->displayBlock('nav', $context, $blocks);
         
-        $__internal_e899ae634f31463d897a5a9713b4ff6a9cdf959128bfd96ef3ddb9e3feb74140->leave($__internal_e899ae634f31463d897a5a9713b4ff6a9cdf959128bfd96ef3ddb9e3feb74140_prof);
+        $__internal_4c67a6a6dc2fd435f386cdfcb72f7b462882041ae1994e8131bd28d2129365fe->leave($__internal_4c67a6a6dc2fd435f386cdfcb72f7b462882041ae1994e8131bd28d2129365fe_prof);
 
         
-        $__internal_ba5aa7d7a264b4d9eda3acf0f4318a6a271971e400249ab9410ca815ebe46ca4->leave($__internal_ba5aa7d7a264b4d9eda3acf0f4318a6a271971e400249ab9410ca815ebe46ca4_prof);
+        $__internal_0584162675854c635c8ac3c198744bfda6068659517f97c20b30214bf28a7295->leave($__internal_0584162675854c635c8ac3c198744bfda6068659517f97c20b30214bf28a7295_prof);
 
     }
 
     public function block_nav($context, array $blocks = array())
     {
-        $__internal_827b2260f1c431de90ca98014985578a17d35f974d71a427fae2860daeeb6ff2 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_827b2260f1c431de90ca98014985578a17d35f974d71a427fae2860daeeb6ff2->enter($__internal_827b2260f1c431de90ca98014985578a17d35f974d71a427fae2860daeeb6ff2_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "nav"));
+        $__internal_bfa70c4d4c06f8ecf7a84887f48e33be53b9a4bd429c08b38cc2afb4997838e2 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_bfa70c4d4c06f8ecf7a84887f48e33be53b9a4bd429c08b38cc2afb4997838e2->enter($__internal_bfa70c4d4c06f8ecf7a84887f48e33be53b9a4bd429c08b38cc2afb4997838e2_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "nav"));
 
-        $__internal_7ddb337da5a2d641322bb25001822a155b3bdbd5edd496f3355e62d5dbdc624c = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_7ddb337da5a2d641322bb25001822a155b3bdbd5edd496f3355e62d5dbdc624c->enter($__internal_7ddb337da5a2d641322bb25001822a155b3bdbd5edd496f3355e62d5dbdc624c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "nav"));
+        $__internal_a9876d5639a6ea5a449277da17e5aa729c33182dea31600ec74824968d69d3b7 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_a9876d5639a6ea5a449277da17e5aa729c33182dea31600ec74824968d69d3b7->enter($__internal_a9876d5639a6ea5a449277da17e5aa729c33182dea31600ec74824968d69d3b7_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "nav"));
 
         // line 2
         echo "<nav class=\"navbar navbar-expand-lg navbar-dark bg-dark\">
   <a class=\"navbar-brand\" href=\"/\">
-    <i>Hacker News</i>
+    &lt; Hacker News &gt;
   </a>
   <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
     <span class=\"navbar-toggler-icon\"></span>
@@ -97,10 +97,10 @@ class __TwigTemplate_87b29ff08ef88a8e918c37c4180e41ff86e88faed92583d03e1123c054c
 </nav>
 ";
         
-        $__internal_7ddb337da5a2d641322bb25001822a155b3bdbd5edd496f3355e62d5dbdc624c->leave($__internal_7ddb337da5a2d641322bb25001822a155b3bdbd5edd496f3355e62d5dbdc624c_prof);
+        $__internal_a9876d5639a6ea5a449277da17e5aa729c33182dea31600ec74824968d69d3b7->leave($__internal_a9876d5639a6ea5a449277da17e5aa729c33182dea31600ec74824968d69d3b7_prof);
 
         
-        $__internal_827b2260f1c431de90ca98014985578a17d35f974d71a427fae2860daeeb6ff2->leave($__internal_827b2260f1c431de90ca98014985578a17d35f974d71a427fae2860daeeb6ff2_prof);
+        $__internal_bfa70c4d4c06f8ecf7a84887f48e33be53b9a4bd429c08b38cc2afb4997838e2->leave($__internal_bfa70c4d4c06f8ecf7a84887f48e33be53b9a4bd429c08b38cc2afb4997838e2_prof);
 
     }
 
@@ -127,7 +127,7 @@ class __TwigTemplate_87b29ff08ef88a8e918c37c4180e41ff86e88faed92583d03e1123c054c
         return new Twig_Source("{% block nav %}
 <nav class=\"navbar navbar-expand-lg navbar-dark bg-dark\">
   <a class=\"navbar-brand\" href=\"/\">
-    <i>Hacker News</i>
+    &lt; Hacker News &gt;
   </a>
   <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
     <span class=\"navbar-toggler-icon\"></span>

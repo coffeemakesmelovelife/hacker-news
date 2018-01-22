@@ -26,6 +26,12 @@ class User implements UserInterface
      */
      private $comments;
 
+     /**
+      * @ORM\OneToMany(targetEntity="Upvote", mappedBy="user")
+      * @ORM\JoinColumn(name="upvote_id", referencedColumnName="id")
+      */
+      private $upvotes;
+
     public function _construct(){
 
       return $this->posts = new ArrayCollection();
@@ -212,5 +218,5 @@ class User implements UserInterface
         return $this->posts;
     }
 
-    
+
 }

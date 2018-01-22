@@ -64,10 +64,10 @@ class User extends \AppBundle\Entity\User implements \Doctrine\ORM\Proxy\Proxy
     public function __sleep()
     {
         if ($this->__isInitialized__) {
-            return ['__isInitialized__', '' . "\0" . 'AppBundle\\Entity\\User' . "\0" . 'posts', '' . "\0" . 'AppBundle\\Entity\\User' . "\0" . 'comments', '' . "\0" . 'AppBundle\\Entity\\User' . "\0" . 'id', '' . "\0" . 'AppBundle\\Entity\\User' . "\0" . 'username', '' . "\0" . 'AppBundle\\Entity\\User' . "\0" . 'email', '' . "\0" . 'AppBundle\\Entity\\User' . "\0" . 'password', '' . "\0" . 'AppBundle\\Entity\\User' . "\0" . 'plainPassword'];
+            return ['__isInitialized__', '' . "\0" . 'AppBundle\\Entity\\User' . "\0" . 'posts', '' . "\0" . 'AppBundle\\Entity\\User' . "\0" . 'comments', '' . "\0" . 'AppBundle\\Entity\\User' . "\0" . 'upvotes', '' . "\0" . 'AppBundle\\Entity\\User' . "\0" . 'id', '' . "\0" . 'AppBundle\\Entity\\User' . "\0" . 'username', '' . "\0" . 'AppBundle\\Entity\\User' . "\0" . 'email', '' . "\0" . 'AppBundle\\Entity\\User' . "\0" . 'password', '' . "\0" . 'AppBundle\\Entity\\User' . "\0" . 'plainPassword'];
         }
 
-        return ['__isInitialized__', '' . "\0" . 'AppBundle\\Entity\\User' . "\0" . 'posts', '' . "\0" . 'AppBundle\\Entity\\User' . "\0" . 'comments', '' . "\0" . 'AppBundle\\Entity\\User' . "\0" . 'id', '' . "\0" . 'AppBundle\\Entity\\User' . "\0" . 'username', '' . "\0" . 'AppBundle\\Entity\\User' . "\0" . 'email', '' . "\0" . 'AppBundle\\Entity\\User' . "\0" . 'password', '' . "\0" . 'AppBundle\\Entity\\User' . "\0" . 'plainPassword'];
+        return ['__isInitialized__', '' . "\0" . 'AppBundle\\Entity\\User' . "\0" . 'posts', '' . "\0" . 'AppBundle\\Entity\\User' . "\0" . 'comments', '' . "\0" . 'AppBundle\\Entity\\User' . "\0" . 'upvotes', '' . "\0" . 'AppBundle\\Entity\\User' . "\0" . 'id', '' . "\0" . 'AppBundle\\Entity\\User' . "\0" . 'username', '' . "\0" . 'AppBundle\\Entity\\User' . "\0" . 'email', '' . "\0" . 'AppBundle\\Entity\\User' . "\0" . 'password', '' . "\0" . 'AppBundle\\Entity\\User' . "\0" . 'plainPassword'];
     }
 
     /**

@@ -21,6 +21,18 @@ class Post
    */
    private $user;
 
+   /**
+    * @ORM\OneToMany(targetEntity="Comment", mappedBy="post")
+    * @ORM\JoinColumn(name="comment_id", referencedColumnName="id")
+    */
+    private $comments;
+
+    /**
+     * @ORM\OneToMany(targetEntity="Upvote", mappedBy="post")
+     * @ORM\JoinColumn(name="upvote_id", referencedColumnName="id")
+     */
+     private $upvotes;
+
   /**
    * @var int
    *
@@ -43,6 +55,22 @@ class Post
    * @ORM\Column(name="post_body", type="text", unique=false)
    */
   private $post_body;
+
+  /**
+   * @var string
+   *
+   * @ORM\Column(name="upvote_count", type="integer", unique=false)
+   */
+  private $upvote_count = 0;
+
+
+  /**
+   * @var string
+   *
+   * @ORM\Column(name="comment_count", type="integer", unique=false)
+   */
+  private $comment_count = 0;
+
 
   /**
    * @var string
@@ -151,5 +179,41 @@ class Post
     public function getUser()
     {
         return $this->user;
+    }
+
+    public function getComments()
+    {
+      return $this->comments;
+    }
+
+    public function likedByCurrentUser($user_id)
+    {
+      for ($i=0; $i < count($this->upvotes); $i++) {
+        if ($user_id == $this->upvotes[$i]->getUser()->getId()) {
+          return true;
+        }
+      }
+      return false;
+    }
+
+    public function getUpvotesCount()
+    {
+      return count($this->upvotes);
+    }
+
+    public function getCommentsCount()
+    {
+      return count($this->comments);
+    }
+
+    public function incrUpvote()
+    {
+      $this->upvote_count++;
+      return $this;
+    }
+    public function decrUpvote()
+    {
+      $this->upvote_count--;
+      return $this;
     }
 }

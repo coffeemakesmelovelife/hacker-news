@@ -15,11 +15,11 @@ class __TwigTemplate_f982211a10e46508fe8fd6a92868c5cc9c15de1ee0e01714b69535deafb
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_a7dd4a8cfe1fe496158eff5ff72b0e74b3e0842eb7ab1e5e7a9d88e541f63199 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_a7dd4a8cfe1fe496158eff5ff72b0e74b3e0842eb7ab1e5e7a9d88e541f63199->enter($__internal_a7dd4a8cfe1fe496158eff5ff72b0e74b3e0842eb7ab1e5e7a9d88e541f63199_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Httplug/Icon/httplug.svg"));
+        $__internal_6d48e32e6aa662e64d60363f1ae5528e1035dd155811ee338dcf0932644881ab = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_6d48e32e6aa662e64d60363f1ae5528e1035dd155811ee338dcf0932644881ab->enter($__internal_6d48e32e6aa662e64d60363f1ae5528e1035dd155811ee338dcf0932644881ab_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Httplug/Icon/httplug.svg"));
 
-        $__internal_56a7eedbe220e24d9dbdaa291b7fce7b6ebfe081f7ef5ba526ca4f8c66a95138 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_56a7eedbe220e24d9dbdaa291b7fce7b6ebfe081f7ef5ba526ca4f8c66a95138->enter($__internal_56a7eedbe220e24d9dbdaa291b7fce7b6ebfe081f7ef5ba526ca4f8c66a95138_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Httplug/Icon/httplug.svg"));
+        $__internal_7a3df4989cc2ae8b31090bc0b67ad79ed5aeb9ce76f628fa0d1aff0c8f648a8a = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_7a3df4989cc2ae8b31090bc0b67ad79ed5aeb9ce76f628fa0d1aff0c8f648a8a->enter($__internal_7a3df4989cc2ae8b31090bc0b67ad79ed5aeb9ce76f628fa0d1aff0c8f648a8a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Httplug/Icon/httplug.svg"));
 
         // line 1
         echo "<?xml version=\"1.0\" encoding=\"utf-8\"?>
@@ -167,10 +167,10 @@ class __TwigTemplate_f982211a10e46508fe8fd6a92868c5cc9c15de1ee0e01714b69535deafb
 </svg>
 ";
         
-        $__internal_a7dd4a8cfe1fe496158eff5ff72b0e74b3e0842eb7ab1e5e7a9d88e541f63199->leave($__internal_a7dd4a8cfe1fe496158eff5ff72b0e74b3e0842eb7ab1e5e7a9d88e541f63199_prof);
+        $__internal_6d48e32e6aa662e64d60363f1ae5528e1035dd155811ee338dcf0932644881ab->leave($__internal_6d48e32e6aa662e64d60363f1ae5528e1035dd155811ee338dcf0932644881ab_prof);
 
         
-        $__internal_56a7eedbe220e24d9dbdaa291b7fce7b6ebfe081f7ef5ba526ca4f8c66a95138->leave($__internal_56a7eedbe220e24d9dbdaa291b7fce7b6ebfe081f7ef5ba526ca4f8c66a95138_prof);
+        $__internal_7a3df4989cc2ae8b31090bc0b67ad79ed5aeb9ce76f628fa0d1aff0c8f648a8a->leave($__internal_7a3df4989cc2ae8b31090bc0b67ad79ed5aeb9ce76f628fa0d1aff0c8f648a8a_prof);
 
     }
 
@@ -337,6 +337,6 @@ class __TwigTemplate_f982211a10e46508fe8fd6a92868c5cc9c15de1ee0e01714b69535deafb
 \t</g>
 </g>
 </svg>
-", "@Httplug/Icon/httplug.svg", "/home/karim/Desktop/sandbox/symfony-standard-2/vendor/php-http/httplug-bundle/Resources/views/Icon/httplug.svg");
+", "@Httplug/Icon/httplug.svg", "/home/karim/Desktop/sandbox/hacker-news/vendor/php-http/httplug-bundle/Resources/views/Icon/httplug.svg");
     }
 }
