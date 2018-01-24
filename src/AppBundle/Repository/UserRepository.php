@@ -27,8 +27,9 @@ class UserRepository extends EntityRepository implements OAuthAwareUserProviderI
     $email = $response->getEmail();
     $user = $this->getEntityManager()
                  ->createQuery(
-                   "SELECT u FROM AppBundle:User u WHERE u.email='$email'"
-                   )
+                  "SELECT u FROM AppBundle:User u WHERE u.email= :email"
+                 )
+                 ->setParameter('email',$email)
                  ->getOneOrNullResult();
 
     if (null === $user) {

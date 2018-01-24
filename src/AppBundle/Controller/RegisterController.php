@@ -19,9 +19,7 @@ class RegisterController extends Controller
     public function indexAction(Request $request, UserPasswordEncoderInterface $passwordEncoder)
     {
 
-      if ($this->container->get('security.authorization_checker')->isGranted('ROLE_USER')) {
-          return new RedirectResponse('/');
-      }
+      
 
       $user = new User();
       $form = $this->createForm(UserType::class, $user);

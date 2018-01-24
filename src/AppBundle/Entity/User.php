@@ -162,20 +162,37 @@ class User implements UserInterface
         return $this->password;
     }
 
+    /**
+     * Erease credentials
+     *
+     * @return null
+     */
     public function eraseCredentials()
     {
         return null;
     }
 
+    /**
+     * get Roles
+     *
+     *
+     * @return array
+     */
     public function getRoles()
     {
         return ['ROLE_USER'];
     }
 
+    /**
+     * get salt
+     *
+     * @return null
+     */
     public function getSalt()
     {
         return null;
     }
+
     /**
      * Constructor
      */

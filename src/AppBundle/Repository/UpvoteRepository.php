@@ -14,9 +14,11 @@ class UpvoteRepository extends EntityRepository
       ->createQuery(
         "SELECT u
          FROM AppBundle:Upvote u
-         WHERE u.user = $user_id
-         AND u.post = $post_id"
+         WHERE u.user = :user_id
+         AND u.post = :post_id"
         )
+      ->setParameter('user_id', $user_id)
+      ->setParameter('post_id', $post_id)
       ->getOneOrNullResult();
   }
 

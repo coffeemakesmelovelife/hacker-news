@@ -17,10 +17,6 @@ class LoginController extends Controller
     public function indexAction(Request $request, AuthenticationUtils $authenticationutils)
     {
 
-      if ($this->container->get('security.authorization_checker')->isGranted('ROLE_USER')) {
-          return new RedirectResponse('/');
-      }
-
       $user = new User();
 
       $errors = $authenticationutils->getLastAuthenticationError();

@@ -22,47 +22,47 @@ class __TwigTemplate_56ede09152d4361c2f69ac5d8a042f1bc1caa7518e44f5d51a477e3f9f7
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_acbe1e73e2d3b38dff797a6759669d929924d2b5f76e26272dd7c5e6dabf990c = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_acbe1e73e2d3b38dff797a6759669d929924d2b5f76e26272dd7c5e6dabf990c->enter($__internal_acbe1e73e2d3b38dff797a6759669d929924d2b5f76e26272dd7c5e6dabf990c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "default/showpost.html.twig"));
+        $__internal_f9f16d98516fd500caef368b0db666197b7bc1f0544c0407d2c9c6b6189f313a = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_f9f16d98516fd500caef368b0db666197b7bc1f0544c0407d2c9c6b6189f313a->enter($__internal_f9f16d98516fd500caef368b0db666197b7bc1f0544c0407d2c9c6b6189f313a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "default/showpost.html.twig"));
 
-        $__internal_fc40a95f5b75e3c2e2e0a565ebaba17630ee52a15b3ce5595e295a28aceffe5f = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_fc40a95f5b75e3c2e2e0a565ebaba17630ee52a15b3ce5595e295a28aceffe5f->enter($__internal_fc40a95f5b75e3c2e2e0a565ebaba17630ee52a15b3ce5595e295a28aceffe5f_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "default/showpost.html.twig"));
+        $__internal_308d38d1e4749f6b3ff0329f387331d9e958d06f1b9c17b4da97a8b94f46dc63 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_308d38d1e4749f6b3ff0329f387331d9e958d06f1b9c17b4da97a8b94f46dc63->enter($__internal_308d38d1e4749f6b3ff0329f387331d9e958d06f1b9c17b4da97a8b94f46dc63_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "default/showpost.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_acbe1e73e2d3b38dff797a6759669d929924d2b5f76e26272dd7c5e6dabf990c->leave($__internal_acbe1e73e2d3b38dff797a6759669d929924d2b5f76e26272dd7c5e6dabf990c_prof);
+        $__internal_f9f16d98516fd500caef368b0db666197b7bc1f0544c0407d2c9c6b6189f313a->leave($__internal_f9f16d98516fd500caef368b0db666197b7bc1f0544c0407d2c9c6b6189f313a_prof);
 
         
-        $__internal_fc40a95f5b75e3c2e2e0a565ebaba17630ee52a15b3ce5595e295a28aceffe5f->leave($__internal_fc40a95f5b75e3c2e2e0a565ebaba17630ee52a15b3ce5595e295a28aceffe5f_prof);
+        $__internal_308d38d1e4749f6b3ff0329f387331d9e958d06f1b9c17b4da97a8b94f46dc63->leave($__internal_308d38d1e4749f6b3ff0329f387331d9e958d06f1b9c17b4da97a8b94f46dc63_prof);
 
     }
 
     // line 2
     public function block_title($context, array $blocks = array())
     {
-        $__internal_d6110932762411a5919f00a67fe22d1cf78f7d305892573667fb52e81f01a981 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_d6110932762411a5919f00a67fe22d1cf78f7d305892573667fb52e81f01a981->enter($__internal_d6110932762411a5919f00a67fe22d1cf78f7d305892573667fb52e81f01a981_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
+        $__internal_c3db273334b2bffb4ece6b1bd66f625a27e990fd6df287f7360d1c269fd83e1a = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_c3db273334b2bffb4ece6b1bd66f625a27e990fd6df287f7360d1c269fd83e1a->enter($__internal_c3db273334b2bffb4ece6b1bd66f625a27e990fd6df287f7360d1c269fd83e1a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
 
-        $__internal_651f003e4854e703a3194850f498428cc8ce40b5bdca0643db0f12811c4242e7 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_651f003e4854e703a3194850f498428cc8ce40b5bdca0643db0f12811c4242e7->enter($__internal_651f003e4854e703a3194850f498428cc8ce40b5bdca0643db0f12811c4242e7_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
+        $__internal_1e11d45693dd666b751554a4293205639fdeb05976225f5c715b15dbedd0a564 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_1e11d45693dd666b751554a4293205639fdeb05976225f5c715b15dbedd0a564->enter($__internal_1e11d45693dd666b751554a4293205639fdeb05976225f5c715b15dbedd0a564_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
 
         echo " Hacker News ";
         
-        $__internal_651f003e4854e703a3194850f498428cc8ce40b5bdca0643db0f12811c4242e7->leave($__internal_651f003e4854e703a3194850f498428cc8ce40b5bdca0643db0f12811c4242e7_prof);
+        $__internal_1e11d45693dd666b751554a4293205639fdeb05976225f5c715b15dbedd0a564->leave($__internal_1e11d45693dd666b751554a4293205639fdeb05976225f5c715b15dbedd0a564_prof);
 
         
-        $__internal_d6110932762411a5919f00a67fe22d1cf78f7d305892573667fb52e81f01a981->leave($__internal_d6110932762411a5919f00a67fe22d1cf78f7d305892573667fb52e81f01a981_prof);
+        $__internal_c3db273334b2bffb4ece6b1bd66f625a27e990fd6df287f7360d1c269fd83e1a->leave($__internal_c3db273334b2bffb4ece6b1bd66f625a27e990fd6df287f7360d1c269fd83e1a_prof);
 
     }
 
     // line 4
     public function block_body($context, array $blocks = array())
     {
-        $__internal_b38b5bb754a53e64d460ddf27cf3a913b7fc6edcb36b4e02b6647284defedf15 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_b38b5bb754a53e64d460ddf27cf3a913b7fc6edcb36b4e02b6647284defedf15->enter($__internal_b38b5bb754a53e64d460ddf27cf3a913b7fc6edcb36b4e02b6647284defedf15_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_1c16a437ef53ba0aa3c92737b0ae10a09eb7ac99543a2328c39df0e86ebc0266 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_1c16a437ef53ba0aa3c92737b0ae10a09eb7ac99543a2328c39df0e86ebc0266->enter($__internal_1c16a437ef53ba0aa3c92737b0ae10a09eb7ac99543a2328c39df0e86ebc0266_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        $__internal_c891eb6080e02e33c9b3e6fa9533bf6f949ecd311afb630d0da84efe4e817290 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_c891eb6080e02e33c9b3e6fa9533bf6f949ecd311afb630d0da84efe4e817290->enter($__internal_c891eb6080e02e33c9b3e6fa9533bf6f949ecd311afb630d0da84efe4e817290_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_50e4e96c618d29628912ca3b9742fd209aec22349d71a0b3f2558c3304ae48e3 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_50e4e96c618d29628912ca3b9742fd209aec22349d71a0b3f2558c3304ae48e3->enter($__internal_50e4e96c618d29628912ca3b9742fd209aec22349d71a0b3f2558c3304ae48e3_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 5
         echo "<br>
@@ -148,7 +148,7 @@ class __TwigTemplate_56ede09152d4361c2f69ac5d8a042f1bc1caa7518e44f5d51a477e3f9f7
       <div class=\"col-lg-12 col-sm-12 col-12\">
           <ul class=\"list-inline\">
             <li class=\"list-inline-item\">
-              <img src=\"https://cdn.pixabay.com/photo/2016/11/08/15/21/user-1808597_960_720.png\" class=\"rounded-circle\" width=\"20px\"> <span>by</span> <span class=\"text-info\">";
+              <img src=\"https://www.my-opinion.de/online_en/images/icons/profil.png\" class=\"rounded-circle\" width=\"20px\"> <span>by</span> <span class=\"text-info\">";
         // line 40
         echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute(($context["post"] ?? $this->getContext($context, "post")), "getUser", array(), "method"), "getUserName", array(), "method"), "html", null, true);
         echo "</span>
@@ -206,7 +206,7 @@ class __TwigTemplate_56ede09152d4361c2f69ac5d8a042f1bc1caa7518e44f5d51a477e3f9f7
     <div class=\"col-lg-12 col-sm-12 col-12\">
         <ul class=\"list-inline\">
           <li class=\"list-inline-item\">
-            <img src=\"https://dummyimage.com/20x20/a8a1a8/0f0f12\" class=\"rounded-circle\" width=\"20px\"> <span class=\"text-info\">";
+            <img src=\"https://www.my-opinion.de/online_en/images/icons/profil.png\" class=\"rounded-circle\" width=\"20px\"> <span class=\"text-info\">";
             // line 75
             echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute($context["comment"], "getUser", array(), "method"), "getUsername", array(), "method"), "html", null, true);
             echo "</span>
@@ -252,10 +252,10 @@ margin-top:15px;
 
 ";
         
-        $__internal_c891eb6080e02e33c9b3e6fa9533bf6f949ecd311afb630d0da84efe4e817290->leave($__internal_c891eb6080e02e33c9b3e6fa9533bf6f949ecd311afb630d0da84efe4e817290_prof);
+        $__internal_50e4e96c618d29628912ca3b9742fd209aec22349d71a0b3f2558c3304ae48e3->leave($__internal_50e4e96c618d29628912ca3b9742fd209aec22349d71a0b3f2558c3304ae48e3_prof);
 
         
-        $__internal_b38b5bb754a53e64d460ddf27cf3a913b7fc6edcb36b4e02b6647284defedf15->leave($__internal_b38b5bb754a53e64d460ddf27cf3a913b7fc6edcb36b4e02b6647284defedf15_prof);
+        $__internal_1c16a437ef53ba0aa3c92737b0ae10a09eb7ac99543a2328c39df0e86ebc0266->leave($__internal_1c16a437ef53ba0aa3c92737b0ae10a09eb7ac99543a2328c39df0e86ebc0266_prof);
 
     }
 
@@ -323,7 +323,7 @@ margin-top:15px;
       <div class=\"col-lg-12 col-sm-12 col-12\">
           <ul class=\"list-inline\">
             <li class=\"list-inline-item\">
-              <img src=\"https://cdn.pixabay.com/photo/2016/11/08/15/21/user-1808597_960_720.png\" class=\"rounded-circle\" width=\"20px\"> <span>by</span> <span class=\"text-info\">{{ post.getUser().getUserName() }}</span>
+              <img src=\"https://www.my-opinion.de/online_en/images/icons/profil.png\" class=\"rounded-circle\" width=\"20px\"> <span>by</span> <span class=\"text-info\">{{ post.getUser().getUserName() }}</span>
             </li>
             <li class=\"list-inline-item\">
               <i class=\"fa fa-calendar\" aria-hidden=\"true\"></i> <span>{{ post.getPostedAt()|date('F jS \\\\a\\\\t g:ia') }}</span>
@@ -358,7 +358,7 @@ margin-top:15px;
     <div class=\"col-lg-12 col-sm-12 col-12\">
         <ul class=\"list-inline\">
           <li class=\"list-inline-item\">
-            <img src=\"https://dummyimage.com/20x20/a8a1a8/0f0f12\" class=\"rounded-circle\" width=\"20px\"> <span class=\"text-info\">{{comment.getUser().getUsername()}}</span>
+            <img src=\"https://www.my-opinion.de/online_en/images/icons/profil.png\" class=\"rounded-circle\" width=\"20px\"> <span class=\"text-info\">{{comment.getUser().getUsername()}}</span>
           </li>
           <li class=\"list-inline-item\">
             <i class=\"fa fa-calendar\" aria-hidden=\"true\"></i> <span>{{ comment.getPostedAt()|date('F jS \\\\a\\\\t g:ia') }}</span>

@@ -97,13 +97,26 @@ class Upvote
         return $this->user;
     }
 
-
+    /**
+     * Increment upvote_count
+     *
+     * @param Post
+     *
+     * @return $this
+     */
      public function incrUpvote(\AppBundle\Entity\Post $post = null)
      {
        $post->incrUpvote();
        return $this;
      }
 
+     /**
+      * Decrement upvote_count
+      *
+      * @param Post
+      *
+      * @return $this
+      */
      public function decrUpvote(\AppBundle\Entity\Post $post = null)
      {
        $post->decrUpvote();

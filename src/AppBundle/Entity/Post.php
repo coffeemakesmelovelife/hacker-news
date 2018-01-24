@@ -181,11 +181,23 @@ class Post
         return $this->user;
     }
 
+    /**
+     * Get comments
+     *
+     * @return Comment
+     */
     public function getComments()
     {
       return $this->comments;
     }
 
+    /**
+     * liked by current user
+     *
+     * @param integer $user_id
+     *
+     * @return boolean
+     */
     public function likedByCurrentUser($user_id)
     {
       for ($i=0; $i < count($this->upvotes); $i++) {
@@ -196,21 +208,42 @@ class Post
       return false;
     }
 
+    /**
+     * get upvotesCount
+     *
+     * @return integer
+     */
     public function getUpvotesCount()
     {
       return count($this->upvotes);
     }
 
+    /**
+     * Get commentsCount
+     *
+     * @return Comment
+     */
     public function getCommentsCount()
     {
       return count($this->comments);
     }
 
+    /**
+     * Increment upvote_count
+     *
+     * @return $this
+     */
     public function incrUpvote()
     {
       $this->upvote_count++;
       return $this;
     }
+
+    /**
+     * Decrement upvote_count
+     *
+     * @return $this
+     */
     public function decrUpvote()
     {
       $this->upvote_count--;

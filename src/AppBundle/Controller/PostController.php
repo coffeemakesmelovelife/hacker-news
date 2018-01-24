@@ -21,7 +21,6 @@ class PostController extends Controller
     public function newPostAction(Request $request, UserInterface $user)
     {
 
-      $this->denyAccessUnlessGranted('ROLE_USER', null, 'unable to access this page.');
 
       if ($request->getMethod() == 'POST') {
         $post = new Post();
